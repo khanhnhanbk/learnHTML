@@ -1,0 +1,32 @@
+div {
+    width: auto;
+    border: 1px solid hsl(224, 83%, 34%);
+    margin-bottom: 5%;
+    padding: 5%;
+}
+.usingEm {
+    font-size: 2em;
+
+}
+.usingRem
+{
+    font-size: 2rem;
+}
+.usingPercentage{
+    font-size: 200%;
+}
+.usingPt {
+    font-size:16pt;
+}
+.usingPx{
+    font-size:16px;
+}
+span {
+    margin: 1%;
+}
+header {
+    background-color: #aaa;
+    height: 200px;;
+    display: block;
+    scroll-padding: 0;
+}
