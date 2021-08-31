@@ -6,43 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Font size</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
+  
+<style>
+    * {
+        box-sizing: border-box;
+    }
+</style> 
+ </head>
   <body>
     <header>
       <a href="../">Back to home</a>
       <nav>Lorem ipsum dolor sit amet.</nav>
       <h1 contenteditable="true">Font size</h1>
     </header>
-    <div>
-      This is container.
-      <div class="usingEm">
+    <div contenteditable="true">Concluded text: <span class="usingPx">text_16px</span><span class="usingPt">text_16pt</span><span class="usingEm">text_2em</span><span class="usingRem">text_2Rem</span><span class="usingPercentage">text_200%</span><span>text_default</span></div>
+    <div contenteditable="true">
+      This is a container.
+      <div contenteditable="true" class="usingEm">
         This is child using em (1.5em)
-        <div class="usingEm">
+        <div contenteditable="true" class="usingEm">
           This is text number 1, font-size 1.5 em <br />
           Em is inherited from daddy
         </div>
       </div>
-      <div class="usingRem">
+      <div contenteditable="true" class="usingRem">
         This is second child using rem.
-        <div class="usingRem">This is text number 2, font-size 1.5rem <br>
+        <div contenteditable="true" class="usingRem">This is text number 2, font-size 1.5rem <br>
         Rem is inherited from body (root).
         </div>
       </div>
-      <div class="usingPercentage">
+      <div contenteditable="true" class="usingPercentage">
           This is using units percentage (200%)
-        <div class="usingPercentage">This is text number 3, font-size 200% <br>
+        <div contenteditable="true" class="usingPercentage">This is text number 3, font-size 200% <br>
             Percents are also scalable like ems. However, 100% is equal to the current font size. Think of it this way: 1.5em is 1.5 times larger, and 150% is 150 percent of the font size. Percents are also good for mobile development because of their scalability. However, they do cascade like ems.</div>
       </div>
-      <div class="usingPt">
+      <div contenteditable="true" class="usingPt">
           This text font is 16pt
-          <div class="usingPt">This is text number 4, font-size 16pt</div>
+          <div contenteditable="true" class="usingPt">This is text number 4, font-size 16pt</div>
         </div>
-        <div class="usingPx">
+        <div contenteditable="true" class="usingPx">
             This is text at 16px
-            <div class="usingPx">This is text number 5, font-size 16px</div>
+            <div contenteditable="true" class="usingPx">This is text number 5, font-size 16px</div>
+          </div>
         </div>
-    </div>
-</div>
-<div>Concluded text: <span class="usingPx">text_16px</span><span class="usingPt">text_16pt</span><span class="usingEm">text_2em</span><span class="usingRem">text_2Rem</span><span class="usingPercentage">text_200%</span><span>text_default</span></div>
-  </body>
-</html>
+      </div>
+    </body>
+    </html>
