@@ -1,5 +1,18 @@
 body {
   padding: 5%;
+  background-image: url("https://cdn.pixabay.com/photo/2017/08/02/14/26/winter-landscape-2571788_1280.jpg");
+}
+header {
+  text-align: center;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  /* border: 1px solid #000; */
+
 }
 ul li {
   list-style: none;
@@ -10,9 +23,9 @@ a.btn:visited {
   display: block;
   text-align: center;
   font-size: 1.5em;
-  margin-bottom: 5px;
-  width: 10em;
-  padding: 0.2em;
+  margin: 2rem 1rem 0 0;
+  width: auto;
+  padding: 0.2em 0.4em;
   border-radius: 0.7em;
 }
 
@@ -27,12 +40,12 @@ a.btn-primary:active {
 }
 
 a.btn-dangerous:link,
-a.btn-dangerous:visited{
+a.btn-dangerous:visited {
   background-color: #f82e2e;
   color: #fff;
 }
 a.btn-dangerous:hover,
-a.btn-dangerous:active{
+a.btn-dangerous:active {
   background-color: #e42020;
 }
 .container {

@@ -1,0 +1,30 @@
+header {
+  text-align: center;
+}
+body {
+  padding: 5%;
+  font-size: 1rem;
+}
+
+table thead {
+  background-color: hsl(168, 99%, 30%);
+  color: hsl(0, 0%, 100%);
+}
+table thead th{
+    width: 100%;
+}
+table tbody tr:nth-child(odd) {
+  background-color: hsl(0, 0%, 90%);
+}
+
+table tbody tr:hover {
+  color: hsl(145, 79%, 25%);
+  font-weight: bold;
+}
+table tbody tr td:hover {
+  background-color: rgb(233, 238, 192);
+}
+table tfoot {
+  font-weight: bold;
+  color: hsl(0, 100%, 44%);
+}

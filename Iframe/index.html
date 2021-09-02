@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IFrame</title>
+     <link rel="stylesheet" href="../style.css" /><link       rel="stylesheet" href="style.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="../">Back to home</a>
+      <nav>Lorem ipsum dolor sit amet.</nav>
+      <h1 contenteditable="true">iframe</h1>
+    </header>
+
+    <!-- <form onsubmit="changeSrc()"> -->
+    <label for="cars">Choose a page you want to review</label>
+    <select id="cars" name="cars" onchange="changeSrc() ">
+      <option value="../link">link</option>
+      <option value="../Image">Image</option>
+      <option value="../Emmet">Emmet</option>
+    </select>
+    <!-- <input type="submit" /> -->
+    <!-- </form> -->
+
+    <iframe src="../link" frameborder="1" id="myIframe"></iframe>
+
+    <script src="code.js"></script>
+  </body>
+</html>
